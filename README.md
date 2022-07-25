@@ -8,12 +8,12 @@ report issues if you find any!
       <img src="https://repository-images.githubusercontent.com/56690366/bbe7c380-55b2-11eb-84ba-d06bf153fe8b" width="300px">
 </p>
 
-![Shell-linter](https://github.com/ovh/debian-cis/workflows/Run%20shell-linter/badge.svg)
-![Functionnal tests](https://github.com/ovh/debian-cis/workflows/Run%20functionnal%20tests/badge.svg)
-![Release](https://github.com/ovh/debian-cis/workflows/Create%20Release/badge.svg)
+![Shell-linter](https://github.com/Sentello/debian-cis/workflows/Run%20shell-linter/badge.svg)
+![Functionnal tests](https://github.com/Sentello/debian-cis/workflows/Run%20functionnal%20tests/badge.svg)
+![Release](https://github.com/Sentello/debian-cis/workflows/Create%20Release/badge.svg)
 
-![Realease](https://img.shields.io/github/v/release/ovh/debian-cis)
-![License](https://img.shields.io/github/license/ovh/debian-cis)
+![Realease](https://img.shields.io/github/v/release/Sentello/debian-cis)
+![License](https://img.shields.io/github/license/Sentello/debian-cis)
 ---
 
 Modular Debian 9/10 security hardening scripts based on [cisecurity.org](https://www.cisecurity.org)
@@ -41,7 +41,7 @@ hardening [INFO] Treating /opt/cis-hardening/bin/hardening/6.2.19_check_duplicat
 ## :dizzy: Quickstart
 
 ```console
-$ git clone https://github.com/ovh/debian-cis.git && cd debian-cis
+$ git clone https://github.com/Sentello/debian-cis.git && cd debian-cis
 $ cp debian/default /etc/default/cis-hardening
 $ sed -i "s#CIS_ROOT_DIR=.*#CIS_ROOT_DIR='$(pwd)'#" /etc/default/cis-hardening
 $ bin/hardening/1.1.1.1_disable_freevxfs.sh --audit-all
@@ -132,7 +132,7 @@ LOGLEVEL in /etc/hardening.cfg
 **Getting the source**
 
 ```console
-$ git clone https://github.com/ovh/debian-cis.git
+$ git clone https://github.com/Sentello/debian-cis.git
 ```
 
 **Building a debian Package** (the hacky way)
